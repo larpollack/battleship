@@ -1,0 +1,67 @@
+.mainWrapper {
+	@apply flex;
+}
+
+.main {
+	@apply flex flex-col;
+}
+
+.humanBoardHeader {
+	@apply text-4xl py-2;
+}
+
+.cpuBoardWrapper {
+	@apply flex flex-col items-end justify-center;
+}
+
+.cpuBoardHeader {
+	@apply text-4xl py-2;
+}
+
+.shipsWrapper {
+	@apply w-full;
+}
+
+.scoresWrapper {
+	@apply w-full px-4;
+}
+
+.scoresHeader {
+	@apply text-4xl py-2;
+}
+
+.showShipsContainer {
+	@apply flex w-full justify-start mt-12;
+}
+
+.showShipsButton {
+	@apply p-2 bg-indigo-800 text-blue-50 rounded-md hover:scale-[1.08];
+}
+
+.loseDisplayWrapper {
+	@apply flex;
+}
+
+.loseDisplayTextWrapper {
+	@apply absolute z-10 inset-0 w-full  text-boardRed flex items-center justify-center flex-col;
+}
+
+.loseDisplayHeader {
+	@apply text-8xl;
+}
+
+.resetButton {
+	@apply py-2 px-4 bg-indigo-800 text-blue-100 hover:bg-indigo-700 hover:scale-[1.08] mt-12 rounded-md;
+}
+
+.winDisplayWrapper {
+	@apply flex;
+}
+
+.winDisplayTextWrapper {
+	@apply absolute z-10 inset-0 w-full  text-boardBlue flex items-center justify-center flex-col;
+}
+
+.winDisplayHeader {
+	@apply text-8xl;
+}

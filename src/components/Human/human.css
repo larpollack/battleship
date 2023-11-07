@@ -1,0 +1,47 @@
+.humanContainer {
+	@apply flex bg-opacity-[55%] bg-emerald-400;
+}
+
+.humanRow {
+	@apply w-[50px] h-[50px] flex items-center justify-center text-xs border border-dashed hover:border-2 hover:border-slate-600 flex-col;
+}
+
+.isHit {
+	@apply border-red-800 border-2 hover:!cursor-not-allowed text-red-800 font-bold;
+}
+
+.notHit {
+	@apply border-red-400 border-2 hover:!cursor-not-allowed font-bold;
+}
+
+.isMissed {
+	@apply border-blue-400 border-2 hover:!cursor-not-allowed font-bold;
+}
+
+.isSunk {
+	@apply bg-red-800;
+}
+
+.notSunk {
+	@apply bg-red-400;
+}
+
+.shipsClickableHover {
+	@apply bg-slate-200;
+}
+
+.shipsNoClickNoHover {
+	@apply bg-red-200 hover:cursor-not-allowed;
+}
+
+.shipsClickableNoHover {
+	@apply hover:cursor-pointer;
+}
+
+.showPlacedShips {
+	@apply bg-gray-600;
+}
+
+.hidePlacedShips {
+	@apply bg-blue-50;
+}

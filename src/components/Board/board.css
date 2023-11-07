@@ -1,0 +1,36 @@
+.boardWrapper {
+	@apply flex flex-col w-full justify-center items-center relative p-6 bg-boardBlue;
+	box-shadow: 3px 3px 4px 1px rgb(64, 64, 64);
+}
+
+.counterWrapper {
+	@apply absolute inset-0 w-full bg-blue-200 bg-opacity-50 flex items-center justify-center;
+}
+
+.counter {
+	@apply text-8xl;
+}
+
+.compTurn {
+	@apply absolute inset-0 w-full bg-blue-200 bg-opacity-50 flex items-center justify-center;
+}
+
+.hideShipsWrapper {
+	@apply w-full flex items-start mt-4;
+}
+
+.hideShipsButton {
+	@apply p-2 bg-indigo-800 text-blue-100 rounded-md hover:scale-[1.08];
+}
+
+.turnWrapper {
+	@apply w-full mt-4;
+}
+
+.turnHuman {
+	@apply text-boardBlue text-xl;
+}
+
+.turnCPU {
+	@apply text-boardRed text-xl;
+}

@@ -1,0 +1,19 @@
+.hitsWrapper {
+	@apply absolute z-10 inset-0 flex items-center justify-center w-full h-full;
+}
+
+.hitsBg {
+	@apply flex items-center justify-center flex-col w-[600px] bg-gray-950 bg-opacity-30 py-4;
+}
+
+.hitsText {
+	@apply text-4xl;
+}
+
+.missColor {
+	@apply text-blue-300;
+}
+
+.hitColor {
+	@apply text-red-200;
+}

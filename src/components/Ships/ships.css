@@ -1,0 +1,55 @@
+.shipsWrapper {
+	@apply w-full px-4;
+}
+
+.shipsHeader {
+	@apply text-4xl py-2;
+}
+
+.shipsBody {
+	@apply text-sm py-4;
+}
+
+.shipContainer {
+	@apply w-auto space-y-4 border;
+}
+
+.shipReady {
+	@apply relative text-white uppercase;
+}
+
+.shipLabel {
+	@apply w-full h-full absolute flex items-center justify-center pointer-events-none;
+}
+
+.shipSquaresWrapper {
+	@apply flex items-center justify-center pointer-events-none;
+}
+
+.shipSquares {
+	@apply w-[50px] h-[50px] border;
+}
+
+.shipPending {
+	@apply bg-fuchsia-200;
+}
+
+.shipPlaced {
+	@apply bg-gray-400/40;
+}
+
+.shipOnDeck {
+	@apply bg-gray-500 group-hover:bg-gray-600;
+}
+
+.startButtonWrapper {
+	@apply mt-12;
+}
+
+.startButton {
+	@apply text-2xl py-2 px-6 bg-blue-600 text-white rounded-lg hover:bg-blue-800 hover:cursor-pointer;
+}
+
+.disabled {
+	@apply cursor-not-allowed disabled:bg-gray-400;
+}

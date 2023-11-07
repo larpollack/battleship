@@ -1,0 +1,27 @@
+.scoreboardWrapper {
+	@apply w-auto space-y-4 text-left;
+}
+
+.scoreWrapper {
+	@apply flex;
+}
+
+.scoreHeader {
+	@apply w-32;
+}
+
+.scoreBorder {
+	@apply w-full border border-dashed relative text-left;
+}
+
+.humanScoreFill {
+	@apply bg-boardBlue h-full;
+}
+
+.scoreText {
+	@apply h-full absolute left-2 top-0 bottom-0 text-white text-sm flex items-center;
+}
+
+.cpuScoreFill {
+	@apply bg-boardRed h-full;
+}
